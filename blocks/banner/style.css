@@ -1,0 +1,30 @@
+/* Tailwind or custom CSS for this block */
+.block-banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    background: #00000029;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+h1,p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    z-index: 5;
+    position: relative;
+}
+h1{
+    font-size: 4rem;
+    color: #FFF;
+    font-weight: 700;
+}
