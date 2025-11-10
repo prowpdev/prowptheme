@@ -1,0 +1,16 @@
+{
+  "name": "acf/cards",
+  "title": "Cards",
+  "description": "A custom cards block",
+  "category": "layout",
+  "icon": "admin-customizer",
+  "keywords": ["cards"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "anchor": true
+  }
+}

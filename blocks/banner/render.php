@@ -3,8 +3,8 @@
 $bg_image = get_field('bg_image');
 $heading = get_field('heading');
 $description = get_field('description');
-$btn_label = get_field('button-label');
-$btn_url = get_field('button-url');
+$btn_label = get_field('btn_label');
+$btn_url = get_field('btn_url');
 ?>
 
 <section class="block-banner" style="background-image:url(<?=$bg_image;?>);">

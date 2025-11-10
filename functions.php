@@ -35,6 +35,13 @@ function prowpdev_enqueue_assets() {
         $theme_version
     );
 
+    wp_enqueue_style(
+        'prowpdev-tailwind-style',
+        get_template_directory_uri() . '/dist/tailwind.css',
+        [],
+        $theme_version
+    );
+
     wp_enqueue_script(
         'prowpdev-scripts',
         get_template_directory_uri() . '/dist/js/main.js',

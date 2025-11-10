@@ -4,9 +4,10 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "npm-run-all --parallel webpack:watch blocks:watch",
+    "dev": "npm-run-all --parallel webpack:watch blocks:watch tailwind:watch",
     "webpack:watch": "webpack --mode development --watch",
     "blocks:watch": "node scripts/watch-blocks.js",
+    "tailwind:watch": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch",
     "build": "webpack --mode production",
     "create-blocks": "node scripts/create-blocks.js",
     "watch-blocks": "node scripts/watch-blocks.js"
